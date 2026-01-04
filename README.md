@@ -52,6 +52,17 @@ dotnet pack
 ```
 
 This command generates a `.nupkg` file in the `bin/Release` directory of your project.
-  
+
+## Run the publishing command
+
+To publish the NuGet package to NuGet.org, use the dotnet nuget push command along with your API key.
+
+```shell
+dotnet nuget push bin/Release/IbanFR.AppLogger.Test.1.0.0.nupkg --api-key YOUR_API_KEY --source https://api.nuget.org/v3/index.json
+```
+
+The package has not been published yet. It will appear in search results and will be available for install/restore
+after both validation and indexing are complete. Package validation and indexing may take up to an hour.
+
 
 [Create and publish a package with the dotnet CLI]: https://learn.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli
