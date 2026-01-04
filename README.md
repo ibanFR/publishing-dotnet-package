@@ -31,6 +31,18 @@ create it in the following site https://signup.live.com/.
 NuGet.org requires all accounts to have two-factor authentication (2FA) enabled on your MSA account. See instructions in
 https://support.microsoft.com/account-billing/turning-two-step-verification-on-or-off-for-your-microsoft-account-b1a56fc2-caf3-a5a1-f7e3-4309e99987ca
 
+## Create an API key
+
+To publish packages to NuGet.org, you need an API key. 
+
+1. Sign into your nuget.org account.
+2. Select your user name at upper right, and then select API Keys.
+3. Select Create, and provide a name for your key.
+4. Under Select Scopes, select Push.
+5. Under Select Packages > Glob Pattern, enter *.
+6. Select Create.
+7. Select Copy to copy the new key.
+
 ## Run the packaging command
 
 To create the NuGet package, run the dotnet pack command, which also builds the project automatically.
