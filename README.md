@@ -50,6 +50,8 @@ To create the NuGet package, run the dotnet pack command, which also builds the 
 ```shell
 dotnet pack
 ```
+
+This command generates a `.nupkg` file in the `bin/Release` directory of your project.
   
 
 [Create and publish a package with the dotnet CLI]: https://learn.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli
