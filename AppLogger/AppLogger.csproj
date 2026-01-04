@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>IbanFR.AppLogger.Test</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Iván Fernández</Authors>
+        <Company>IbanFR</Company>
+    </PropertyGroup>
+
+</Project>
